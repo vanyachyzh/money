@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/money/static/css/main.347b4029.css",
+    "main.js": "/money/static/js/main.25a39c4e.js",
+    "static/media/eu-flag.webp": "/money/static/media/eu-flag.a187a6fccebc741cb51b.webp",
+    "static/media/uk-flag.webp": "/money/static/media/uk-flag.271e0ca938af4f936f53.webp",
+    "static/media/pl-flag.webp": "/money/static/media/pl-flag.51949ba9aef23d00a9bb.webp",
+    "index.html": "/money/index.html",
+    "main.347b4029.css.map": "/money/static/css/main.347b4029.css.map",
+    "main.25a39c4e.js.map": "/money/static/js/main.25a39c4e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.347b4029.css",
+    "static/js/main.25a39c4e.js"
+  ]
+}
