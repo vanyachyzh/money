@@ -1,0 +1,67 @@
+.converter{
+    width: 720px;
+    height: 155px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.equal{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 70px;
+    width: 50px;
+    color: rgb(0, 60, 0);
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+}
+
+input{
+    width: 320px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    background-color: rgb(234, 234, 234);
+    border: none;
+    border-top: 3px solid rgb(171, 170, 170);
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 4px;
+    box-sizing: border-box;
+    appearance: none;
+}
+
+select{
+    outline: none;
+    border-radius: 7px;
+    border: 2px solid rgb(171, 170, 170);
+    background-color: rgb(155, 155, 240);
+    margin-top: 10px;
+    width: 100px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    box-sizing: border-box;
+    appearance: none;
+    font-family: inherit;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+select option img{
+    width: 20px;
+    height: 20px;
+}
