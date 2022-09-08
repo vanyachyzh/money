@@ -48,17 +48,17 @@ function Converter() {
     return (
         <div className="converter">
 
-            <input id="input1" onChange={changeValue} ref={input1} style={{ float: "left" }} type="number" min="0" pattern="^\d*(\.\d{0,2})?$"></input>
+            <input id="input1" onChange={changeValue} ref={input1} style={{ float: "left" }} type="number" min="0" ></input>
             <input id="input2" onChange={changeValue} ref={input2} style={{ float: "right" }} type="number" min="0"></input>
 
-            <select id="select1" onChange={changeValue} ref={select1} style={{ float: "left", marginLeft: "110px" }}>
+            <select id="select1" onChange={changeValue} ref={select1}>
                 <option value="EUR">EUR</option>
                 <option value="USD">USD</option>
                 <option value="UAH">UAH</option>
                 <option value="PLN">PLN</option>
             </select>
 
-            <select id="select2" onChange={changeValue} ref={select2} style={{ float: "right", marginRight: "110px" }}>
+            <select id="select2" onChange={changeValue} ref={select2}>
                 <option value="EUR">EUR</option>
                 <option value="USD">USD</option>
                 <option value="UAH">UAH</option>

@@ -49,9 +49,6 @@ select{
     margin-top: 10px;
     width: 100px;
     height: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     display: inline-block;
     box-sizing: border-box;
     appearance: none;
@@ -60,8 +57,48 @@ select{
     font-weight: 500;
     margin-top: 15px;
 }
+#select1{
+    margin-left: 110px;
+    float: left;
+}
+#select2{
+    margin-right: 110px;
+    float: right;
+}
 
 select option img{
     width: 20px;
     height: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .equal{
+        visibility: hidden;
+    }
+    .converter{
+        width: 260px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    select{
+        width: 120px;
+        height: 30px;
+    }
+    #select1{
+        margin-left: 0px;
+    }
+    #select2{
+        margin-right: 0px;
+    }
+    input{
+        width: 120px;
+        height: 30px;
+        font-size: 18px;
+        padding-left: 10px;
+        padding-top: 0px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
 }

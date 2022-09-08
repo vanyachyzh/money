@@ -25,3 +25,27 @@ header{
     left: 50%;
     transform: translate(-50%, -250%);
 }
+
+
+@media screen and (max-width: 800px) {
+    .currentValue{
+        width: 70px;
+        background-color: rgb(112, 192, 165);
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .currentValue img{
+        width: 25px;
+        margin-right: 0;
+    }
+    header{
+        width: 260px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -250%);
+    }
+}

@@ -10,9 +10,9 @@ function Header() {
         fetch("https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?json")
             .then(r => r.json())
             .then(r => {
-                setEur(r[32].rate)
-                setUsd(r[25].rate)
-                setPln(r[33].rate)
+                setEur((r[32].rate).toFixed(2))
+                setUsd((r[25].rate).toFixed(2))
+                setPln((r[33].rate).toFixed(2))
             })
     }, [])
 
